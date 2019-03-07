@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.jokopriyono.eudeka.mvvm.R
 import com.jokopriyono.eudeka.mvvm.view.login.LoginActivity
+import com.jokopriyono.eudeka.mvvm.view.maps.MapsActivity
 import kotlinx.android.synthetic.main.activity_menu.*
 import org.jetbrains.anko.sdk27.coroutines.onClick
 import org.jetbrains.anko.startActivity
@@ -16,7 +17,9 @@ class MenuActivity : AppCompatActivity() {
 
         card_football_team.onClick {
             startActivity<LoginActivity>()
-            finish()
+        }
+        card_maps.onClick {
+            startActivity<MapsActivity>()
         }
     }
 }

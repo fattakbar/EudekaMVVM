@@ -4,4 +4,5 @@
     <string name="password">Password</string>
     <string name="login">Login</string>
     <string name="hint">**Email = test, Password = test</string>
+    <string name="football_team">Football Team</string>
 </resources>
